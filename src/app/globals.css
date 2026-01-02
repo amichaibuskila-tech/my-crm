@@ -42,3 +42,13 @@ body {
   text-align: center;
   width: 70%;
 }
+
+.content {
+  background-color: rgb(240, 248, 255);
+  padding: 20px;
+  margin: 300px auto;
+  width: 70%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: black;
+}
