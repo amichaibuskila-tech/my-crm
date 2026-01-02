@@ -1,12 +1,13 @@
-import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-
-        <h1>about</h1>
-      </main>
+    <div className="page-container">
+      <div className="content">
+        <h1>About This Application</h1>
+        <p>
+          hi there! This application is built using Next.js, a powerful React framework for building web applications. It demonstrates the use of routing, components, and server-side rendering.
+        </p>
+      </div>
     </div>
   );
 }
