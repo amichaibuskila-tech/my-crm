@@ -9,6 +9,10 @@ export default function Home() {
     setCount(count + 1);
   }
 
+function resetCount() {
+    setCount(0);
+  }
+
   return (
 
     <div className="content">
@@ -19,6 +23,10 @@ export default function Home() {
       <button onClick={handleClick}> Click Me</button>
       <br />
       {count}
+      <br />
+      <button onClick={resetCount}> Click Me</button>
+
+      <img className="logo" src="./logo.jpeg" alt="About Image" width={400} height={300} />
     </div>
 
   );

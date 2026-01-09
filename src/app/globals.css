@@ -66,3 +66,19 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   color : black;
 }
+button {
+  background-color: #9cd4d4;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.logo {
+  height: 40px;
+  vertical-align: middle;
+  margin-right: 10px;
+  border-radius: 12px;
+} 
